@@ -34,6 +34,8 @@ public class CorregirExamen {
         
         AlejandroMB amb = new AlejandroMB();
         lista.add(amb);
+        ManuelPA mpa = new ManuelPA();
+        lista.add(mpa);
         
  
         
