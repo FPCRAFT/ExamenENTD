@@ -36,7 +36,7 @@ public class CorregirExamen {
         lista.add(amb);
         ManuelPA mpa = new ManuelPA();
         lista.add(mpa);
-        
+
  
         
         CristianRR crr = new CristianRR();
@@ -51,11 +51,12 @@ public class CorregirExamen {
         
         IreneJM ijm = new IreneJM();
         lista.add(ijm);
+        
+        JoseCarlosHL jclh = new JoseCarlosHL();
+        lista.add(jclh);
         // MOSTRAR EL CONTENIDO DE LA LISTA
         for (Corregible objeto : lista) {
             System.out.println(objeto.descripcion());
         }
-
     }
-
 }
