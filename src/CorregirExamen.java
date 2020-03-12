@@ -56,7 +56,7 @@ public class CorregirExamen {
         IreneJM ijm = new IreneJM();
         lista.add(ijm);
         
-        JoseCarlosHL jclh = new JoseCarlosHL();
+        JoseCarlosLH jclh = new JoseCarlosLH();
         lista.add(jclh);
         // MOSTRAR EL CONTENIDO DE LA LISTA
         for (Corregible objeto : lista) {
