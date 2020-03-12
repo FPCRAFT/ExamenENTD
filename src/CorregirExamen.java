@@ -17,6 +17,10 @@ public class CorregirExamen {
         // ZONA PARA CREAR OBJETOS Y AÑADIRLOS A LA LISTA
         RaulVE r= new RaulVE();
         lista.add(r);
+        
+        SergioMR mr = new SergioMR();
+        lista.add(mr);
+        
         BryanESL b = new BryanESL();
         lista.add(b);
         JoseAntonioDP joseADP = new JoseAntonioDP();
