@@ -1,6 +1,4 @@
-import entornos.examen.AlejandroRA;
-import java.util.ArrayList;
-import entornos.examen.*;
+import examen.mayo.*;
 
 
 public class CorregirExamen {
@@ -11,56 +9,20 @@ public class CorregirExamen {
      */
     public static void main(String[] args) {
 
-        //DEFINIR LA LISTA
-        ArrayList<Corregible> lista = new ArrayList<Corregible>();
-
-        // ZONA PARA CREAR OBJETOS Y AÑADIRLOS A LA LISTA
-        RaulVE r= new RaulVE();
-        lista.add(r);
+            BorrameA a = new BorrameA();
+            
+            BorrameD d = new BorrameD();
+            
+            BorrameG g = new BorrameG();
+            
+            BorrameJ j = new BorrameJ();
+            
+            BorrameMD md = new BorrameMD();
+            
+            BorrameN n = new BorrameN();
+            
+            BorrameVD vd = new BorrameVD();
         
-        SergioMR mr = new SergioMR();
-        lista.add(mr);
-        
-        BryanESL b = new BryanESL();
-        lista.add(b);
-        JoseAntonioDP joseADP = new JoseAntonioDP();
-        lista.add(joseADP);
-        RafaelEO reo = new RafaelEO();
-        lista.add(reo);
-        AlejandroRA a = new AlejandroRA();
-        lista.add(a);
-        JuanCarlosML jcml = new JuanCarlosML();
-        lista.add(jcml);
-        JavierSV jsv = new JavierSV();
-        lista.add(jsv);
-        IvanMG img = new IvanMG();
-        lista.add(img);
-        
-        AlejandroMB amb = new AlejandroMB();
-        lista.add(amb);
-        ManuelPA mpa = new ManuelPA();
-        lista.add(mpa);
-
- 
-        
-        CristianRR crr = new CristianRR();
-        lista.add(crr);
-        InakiAr iar=new InakiAr();
-        lista.add(iar);
-        
-        MiguelAngelSC o = new MiguelAngelSC();
-        lista.add(o);
-        IsabelCRA icra= new IsabelCRA();
-        lista.add(icra);
-        
-        IreneJM ijm = new IreneJM();
-        lista.add(ijm);
-        
-        JoseCarlosLH jclh = new JoseCarlosLH();
-        lista.add(jclh);
-        // MOSTRAR EL CONTENIDO DE LA LISTA
-        for (Corregible objeto : lista) {
-            System.out.println(objeto.descripcion());
-        }
+            
     }
 }
