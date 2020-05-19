@@ -17,7 +17,7 @@ public class CorregirExamen {
             
             BorrameJ j = new BorrameJ();
             
-            BorrameMD md = new BorrameMD();
+            NuevaMd md = new NuevaMd();
             
             BorrameN n = new BorrameN();
             
