@@ -9,7 +9,6 @@ public class CorregirExamen {
      */
     public static void main(String[] args) {
 
-            BorrameA a = new BorrameA();
             
             BorrameD d = new BorrameD();
             
