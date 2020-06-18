@@ -1,5 +1,6 @@
-import examen.mayo.*;
 
+import examen.mayo.*;
+import examen.junio.*;
 
 public class CorregirExamen {
 
@@ -9,19 +10,17 @@ public class CorregirExamen {
      */
     public static void main(String[] args) {
 
-            
-            BorrameD d = new BorrameD();
-            
-            BorrameG g = new BorrameG();
-            
-            BorrameJ j = new BorrameJ();
-            
-            NuevaMd md = new NuevaMd();
-            
-            BorrameN n = new BorrameN();
-            
-            BorrameVD vd = new BorrameVD();
-        
-            
+        BorrameD d = new BorrameD();
+
+        BorrameG g = new BorrameG();
+
+        NuevaMd md = new NuevaMd();
+
+        BorrameN n = new BorrameN();
+
+        BorrameVD vd = new BorrameVD();
+
+        NUEVAJ j = new NUEVAJ();
+
     }
 }
